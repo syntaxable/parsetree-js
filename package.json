@@ -1,0 +1,27 @@
+{
+  "name": "parsetree-js",
+  "version": "0.1.0",
+  "description": "Interact with parsed JavaScript code trees using familiar selector patterns",
+  "keywords": [
+    "$",
+    "ast",
+    "tree",
+    "parsed",
+    "selector",
+    "traverse",
+    "cst",
+    "syntax",
+    "code",
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syntaxable/parsetree-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/syntaxable/parsetree-js/issues"
+  },
+  "scripts": {
+    "test": "node test"
+  }
+}
