@@ -1,0 +1,31 @@
+
+https://www.understandingv8.com/en/ast.html
+
+which methods need to re-adjust parent refs?
+
+=====
+
+Other selectors:
+$('Program > .let')
+
+
+=====
+
+https://astexplorer.net/
+
+Recast
+    has sourcemaps -> https://github.com/benjamn/recast
+ESTree (formerly SpiderMonkey)
+    original syntax
+Shift AST
+    more descriptive statement classifications
+Esprima
+    modern, by Resig
+Acorn
+    supposedly faster
+UglifyJS2 parser
+    -
+treehugger.js
+    very different from the others
+Esotope
+    fast? https://github.com/inikulin/esotope

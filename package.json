@@ -11,7 +11,7 @@
     "traverse",
     "cst",
     "syntax",
-    "code",
+    "code"
   ],
   "license": "Apache-2.0",
   "repository": {
@@ -23,5 +23,16 @@
   },
   "scripts": {
     "test": "node test"
+  },
+  "devDependencies": {
+    "feather-test": "^3.6.0",
+    "glob": "^7.1.2"
+  },
+  "dependencies": {
+    "optimize-js": "^1.0.3",
+    "recast": "^0.13.0",
+    "seebigs-each": "^1.0.1",
+    "seebigs-utils": "^1.4.1",
+    "uglify-es": "^3.3.5"
   }
 }
