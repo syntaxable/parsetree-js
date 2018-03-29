@@ -1,3 +1,4 @@
 module.exports = [
     '_',
+    'loc',
 ];
