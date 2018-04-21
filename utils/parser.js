@@ -7,8 +7,9 @@ function printAdditionalErrorContext (rawCode, err) {
     errLine = parseInt(errLineSplit[0]);
     const errCol = parseInt(errLineSplit[1]);
     const badLine = rawCode.split('\n')[errLine - 1];
+    const errOut = badLine ? badLine.substring(errCol - 100, errCol + 100) : rawCode;
     console.log('\nError parsing code at:');
-    console.log(badLine.substring(errCol - 100, errCol + 100));
+    console.log(errOut);
     console.log();
 }
 
